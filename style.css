@@ -62,11 +62,11 @@ body{
     align-items: center;
 }
 
-.button{
+.clear-button{
     padding: 20px 50px;
 }
 
-.button:hover{
+.clear-button:hover{
     cursor: pointer;
 }
 
