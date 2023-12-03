@@ -1,7 +1,3 @@
-@font-face {
-    font-family:digital-7mono;
-    src: url('assets/digital-7/digital-7mono.ttf');
-}
 *{
     padding: 0;
     margin: 0;
@@ -42,12 +38,12 @@ body{
     padding-left: 270px;
     margin-right: 10px;
     margin-bottom: 3px;
-    border: solid red;
+    /* border: solid red; */
     font-size: 75px;
 }  
 
 .buttons-grid{
-    border: solid green;
+    /* border: solid green; */
     height: 500px;
     width: 400px;
     display: flex;
@@ -55,7 +51,7 @@ body{
 }
 
 .remove-buttons{
-    border: solid orange;
+    /* border: solid orange; */
     height: 100px;
     display: flex;
     justify-content: space-around;
@@ -64,6 +60,7 @@ body{
 
 .clear-button{
     padding: 20px 50px;
+    border-radius: 10%;
 }
 
 .clear-button:hover{
@@ -80,6 +77,21 @@ body{
 } */
 
 .number-buttons{
-    border: solid brown;
+    /* border: solid brown; */
     height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.button{
+    margin-top: 10px;
+    height: 75px;
+    width: 75px;
+    border-radius: 10%;
+}
+
+.button:hover{
+    cursor: pointer;
 }
