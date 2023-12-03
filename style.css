@@ -1,0 +1,51 @@
+@font-face {
+    font-family:digital-7mono;
+    src: url('assets/digital-7/digital-7mono.ttf');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    border-radius: 10%;
+    height: 650px;
+    width: 500px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.display{
+    background-color: lightgray;
+    border: solid black;
+    height: 100px;
+    width: 400px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.numbers{
+    margin-right: 10px;
+    border: solid red;
+    font-size: 75px;
+}  
+
+.buttons-grid{
+    border: solid green;
+    height: 450px;
+    width: 400px;
+}
