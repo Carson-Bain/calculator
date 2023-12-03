@@ -18,7 +18,7 @@ body{
 
 .calculator{
     border-radius: 10%;
-    height: 650px;
+    height: 700px;
     width: 500px;
     background-color: lightblue;
     display: flex;
@@ -39,13 +39,47 @@ body{
 }
 
 .numbers{
+    padding-left: 270px;
     margin-right: 10px;
+    margin-bottom: 3px;
     border: solid red;
     font-size: 75px;
 }  
 
 .buttons-grid{
     border: solid green;
-    height: 450px;
+    height: 500px;
     width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.remove-buttons{
+    border: solid orange;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button{
+    padding: 20px 50px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+
+/* #clear{
+    
+}
+
+#delete{
+
+} */
+
+.number-buttons{
+    border: solid brown;
+    height: 400px;
 }
