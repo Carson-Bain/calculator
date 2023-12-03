@@ -1,6 +1,11 @@
+const addition = document.getElementById('add')
+const subtraction = document.getElementById('subtract');
+const division = document.getElementById('divide');
+const multiplication = document.getElementById('multiply');
+
 let num1;
 let num2;
-let operator;
+let operator = [addition, subtraction, division, multiplication];
 
 
 function add(a, b) {
@@ -32,6 +37,3 @@ function operate(operator, num1, num2) {
         return 'Invalid Entry';
     }
 }
-
-
-console.log(operate('+', 10, 5));
