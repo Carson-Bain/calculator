@@ -40,6 +40,9 @@ body{
     margin-bottom: 3px;
     /* border: solid red; */
     font-size: 75px;
+    height: 90px;
+    width: 380px;
+    text-align: right;
 }  
 
 .buttons-grid{
@@ -85,7 +88,7 @@ body{
     gap: 10px;
 }
 
-.button{
+.button, .operate, .equals, .decimal{
     margin-top: 10px;
     height: 75px;
     width: 75px;
