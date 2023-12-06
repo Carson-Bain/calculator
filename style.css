@@ -6,7 +6,7 @@
 
 body{
     height: 100vh;
-    background-color: gray;
+    background-color: #3EB489;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,6 +14,7 @@ body{
 
 .calculator{
     border-radius: 10%;
+    border: solid black;
     height: 800px;
     width: 500px;
     background-color: lightblue;
@@ -39,7 +40,6 @@ body{
     padding-left: 270px;
     margin-right: 10px;
     margin-bottom: 3px;
-    /* border: solid red; */
     font-size: 65px;
     height: 90px;
     width: 380px;
@@ -48,7 +48,6 @@ body{
     align-items: flex-end;
 }  
 .previous-operand{
-    /* border: solid purple; */
     border-bottom: solid black;
     height: 50px;
     width: 380px;
@@ -60,7 +59,6 @@ body{
 }
 
 .buttons-grid{
-    /* border: solid green; */
     height: 500px;
     width: 400px;
     display: flex;
@@ -68,7 +66,6 @@ body{
 }
 
 .remove-buttons{
-    /* border: solid orange; */
     height: 100px;
     display: flex;
     justify-content: space-around;
@@ -85,16 +82,15 @@ body{
 }
 
 
-/* #clear{
-    
+#clear{
+    background-color: #faa;
 }
 
 #delete{
-
-} */
+background-color: #aff;
+}
 
 .number-buttons{
-    /* border: solid brown; */
     height: 400px;
     display: flex;
     justify-content: center;
